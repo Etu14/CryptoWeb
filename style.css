@@ -13,11 +13,12 @@ button:hover{
     color: #801414;
 }
 
+
 body {
   background: #1c121f;
   overflow-x: hidden;
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr 2fr 2fr 3fr 1fr ;
+  grid-template-rows: 2fr 1fr 1fr 1fr 2fr 3fr 1fr ;
   grid-template-columns: 1fr;
 }
 
@@ -106,14 +107,14 @@ button{
   grid-row: 1/2;
   width: 50%;
 display: grid;
-grid-template-columns: repeat(3,1fr);
+grid-template-columns: repeat(2,1fr);
 grid-template-rows: repeat(3,1fr);
 margin-top: 10%;
 margin-left: 3%;
 }
 
 .title {
-  grid-column: 1/4;
+  grid-column: 1/3;
 }
 
 #create {
@@ -760,8 +761,7 @@ button:hover {
     margin-top: 10%;
     width: 100%;
     height: 90%;
-    text-align: center;
-}
+    text-align: center;}
 
 #subscribe-news{
   color: white;
@@ -779,17 +779,17 @@ font-weight: 700;
   font-size: 2vw;
   line-height: 1vw;
   color: #A48EA9;
+  margin-left: 1%;
   border: none;
   background-color: rgba(233, 215, 167, 0);
   width: 48vw;
-  height: 100%;
-  padding: 2vw;
+  height: 6vw;
 }
 
 #subscribe-button{
   font-weight: 700;
-  width:20.73vw;
-  height: 8vw;  
+  width:29%;
+  height: 6vw;  
   background: #ffce4e;
   border: none;
   transition: all 500ms ease;
@@ -803,10 +803,10 @@ font-weight: 700;
   color: #000000;
 }
 #subscribe{
-  width: 69vw;
-  height: 8vw;
+  width: 69.1vw;
+  height: 6.2vw;
   border: 0.1vw solid #E7B226;
-  margin: 3% auto;
+  margin:auto;
   text-align: start;
 }
 
@@ -878,8 +878,8 @@ footer{
     font-size: 0.5vw;
     line-height: 2vw;
     color: #96839B;
-    margin: auto;
-    width: 80%;
+    margin:auto;
+    width: 72%;
 }
 #about-us h4{
   font-weight: 700;
